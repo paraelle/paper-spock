@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Avenir;
+  src: url("./AvenirLTStd-Book.otf") format("opentype");
+}
+
+.App {
+  text-align: center;
+}
+
+.labels--group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.rules {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 15px #d7d7d7;
+}
+
+.game {
+  margin-top: 10px;
+  padding: 15px;
+  height: 800px;
+}
+
+
+h1 {
+  width: 260px;
+  margin: auto;
+  margin-top: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 42px;
+  /* white-space:pre; */
+}
+
+.choices--group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.board {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Avenir' bold;
+  font-size: 18px;
+  margin: 60px auto 0;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.points-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  font-size: 70px;
+  font-weight: lighter;
+  margin: 0 30px;
+}
+.points-container>div:first-of-type {
+  margin-right: auto;
+}
+
+.points-container>div:last-of-type {
+  margin-left: auto;
+}
+
+.choice-player {
+  margin: 10px;
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+.choice-comp {
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid;
+}
+
+.winner {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.draw {
+  color: #999999;
+}
+
+.player_won {
+  color: #009966;
+}
+
+.comp_won {
+  color: #ED4255;
+}

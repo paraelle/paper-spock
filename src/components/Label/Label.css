@@ -1,0 +1,30 @@
+
+
+.label {
+    width: 85px;
+    margin: 0px 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family: 'Avenir';
+    font-size: 18px;
+}
+
+.grey {
+    background-color: #EBE4E2;
+}
+
+.pink {
+    background-color: #FFBAC7;
+}
+
+.blue {
+    background-color: #67B4D6;
+}
+
+.green {
+    background-color: #C4F7AA;
+}
+
+.light-blue {
+    background-color: #B5EAFC;
+}
